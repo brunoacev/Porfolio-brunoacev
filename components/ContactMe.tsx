@@ -21,13 +21,13 @@ const ContactMe = (props: Props) => {
   };
 
   return (
-    <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+    <div className="h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center contact375 contact390">
       <h3 className="absolute top-24 uppercase tracking-[5px] text-gray-500 text-1xl">
         Contato
       </h3>
 
-      <div className="flex flex-col space-y-10">
-        <h4 className="text-2xl font-semibold text-center">
+      <div className="flex flex-col space-y-10 ">
+        <h4 className="text-2xl font-semibold text-center text375 text390 ">
           Encaminhe uma mensagem via email, telefone, ou{" "}
           <a
             href="https://wa.me/+5585985436862"
@@ -58,7 +58,7 @@ const ContactMe = (props: Props) => {
         </div>
 
         <form
-          className="flex flex-col space-y-2 w-fit mx-auto"
+          className="flex flex-col space-y-2 w-fit mx-auto form390"
           onSubmit={handleSubmit(onSubmit)}
         >
           <div className="flex space-x-2">

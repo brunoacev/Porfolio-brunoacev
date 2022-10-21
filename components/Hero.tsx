@@ -1,14 +1,14 @@
 import Link from "next/link";
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import BackgroundCircles from "./backgroundCircles";
+import BackgroundCircles from "./BackgroundCircles";
 
 type Props = {};
 
 const Hero = (props: Props) => {
   const [text, count] = useTypewriter({
     words: [
-      "Olá! Me chamo Bruno Azevedo.",
+      "Olá! Me chamo Bruno Azevedo!",
       "garoto.ama.cafe.tsx",
       "<ButLovesToCodeMore />",
     ],

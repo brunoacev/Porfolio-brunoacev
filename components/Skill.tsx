@@ -49,16 +49,8 @@ const Skill = ({}: Props) => {
       levelHabilite: "70%",
     },
     {
-      urlType: mui4,
-      levelHabilite: "50%",
-    },
-    {
       urlType: next,
       levelHabilite: "85%",
-    },
-    {
-      urlType: mysql,
-      levelHabilite: "50%",
     },
     {
       urlType: node,

@@ -24,7 +24,7 @@ const About = (props: Props) => {
         }}
         viewport={{ once: true }}
         src="https://scontent.fjdo10-1.fna.fbcdn.net/v/t39.30808-6/312353582_2338873949611161_4377401417134157985_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_ohc=DYWh8vZ3hEcAX_U5rmW&_nc_ht=scontent.fjdo10-1.fna&oh=00_AT8ssuMVbBa4kAQCjFOpYX9T7bsNSFp5tXCmEBPwsnyqLw&oe=635624A1"
-        className="-mb-10 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-contain md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+        className="-mb-10 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-contain md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[400px]"
       />
 
       <div className="space-y-10 px-0 md:px-10">
@@ -35,7 +35,12 @@ const About = (props: Props) => {
           </span>
         </h4>
         <p className="text-sm">
-          Iniciei minha jornada dedicando mais de 6 anos na área de atendimento ao público e gestão de times, tenho um background fortalecido com SoftSkills em comunicação, organização de metas e o cuidado com equipes. Vejo grandes desafios na área de tecnologia na qual me interesso bastante por ciclos de desenvolvimentos continuos e aberto para novos projetos.
+          Iniciei minha jornada dedicando mais de 6 anos na área de atendimento
+          ao público e gestão de times, tenho um background fortalecido com
+          SoftSkills em comunicação, organização de metas e o cuidado com
+          equipes. Vejo grandes desafios na área de tecnologia na qual me
+          interesso bastante por ciclos de desenvolvimentos continuos e aberto
+          para novos projetos.
         </p>
       </div>
     </div>

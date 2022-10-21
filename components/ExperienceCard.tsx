@@ -36,11 +36,11 @@ const ExperienceCard = (props: Props) => {
     },
   ];
   return (
-    <article className="flex ml-20 items-center">
+    <article className="flex  items-center">
       {dataSource.map((data, index) => (
         <div
           key={index}
-          className=" h-full flex gap-5  p-2 shadow-xl xl:max-w-[600px] md:max-w-[400px] md:max-h-[600px] sm:max-w-[250px] sm:max-h-[600px] "
+          className=" h-full flex p-1 shadow-xl xl:max-w-[600px] md:max-w-[400px] md:max-h-[600px] sm:max-w-[250px] sm:max-h-[600px] articleWork"
         >
           <motion.img
             initial={{
