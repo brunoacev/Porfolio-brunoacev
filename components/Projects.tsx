@@ -18,7 +18,7 @@ const Projects = (props: Props) => {
     {
       urlImg:
         "https://live.staticflickr.com/65535/52442396315_b33fe0a1be_b.jpg",
-      title: "E-commerce",
+      title: "MF Digital",
       content:
         "Projeto pretende entregar uma plataforma para usuários com acesso a serviços como monitorias de clientes em debitos, sistema de discagem, pagina de controle administrativos e pagina de interação de usuários atraves de chat.",
       link: "https://brunoacev.github.io/Projeto-MF-Advocacia/",
