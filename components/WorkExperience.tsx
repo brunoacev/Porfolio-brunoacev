@@ -10,7 +10,7 @@ const WorkExperience = (props: Props) => {
         Experiências
       </h3>
 
-      <div className="w-full flex  overflow-y-hidden overflow-x-scroll py-10  snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 WorkExperienceBox ">
+      <div className="w-full flex  overflow-y-hidden overflow-x-scroll py-10  snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80 WorkExperienceBox xl:flex xl:justify-center">
         <ExperienceCard />
       </div>
     </div>

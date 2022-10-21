@@ -16,7 +16,7 @@ const Skills = (props: Props) => {
       transition={{
         duration: 1.5,
       }}
-      className=" flex relative flex-col text-center md:text-left lx:flex-row max-w-[400px] xl:px-10 min-h-screen justify-center mx:space-y-0 mx-auto items-center skills375"
+      className=" flex relative flex-col text-center md:text-left xl:flex-row max-w-[400px] xl:px-10 min-h-screen justify-center mx:space-y-0 mx-auto items-center skills375"
     >
       <h3 className="absolute top-24 uppercase tracking-[10px] text-gray-500 text-1xl">
         Skills
@@ -26,7 +26,7 @@ const Skills = (props: Props) => {
         Posicione o cursor para visualizar nivel das skills
       </h3>
 
-      <div className="grid grid-cols-1 md:mt-32 ">
+      <div className="grid grid-cols-1 md:mt-32 xl:mb-48">
         <Skill />
       </div>
     </motion.div>

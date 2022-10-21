@@ -36,7 +36,7 @@ const ExperienceCard = (props: Props) => {
     },
   ];
   return (
-    <article className="flex  items-center">
+    <article className="flex  items-center ">
       {dataSource.map((data, index) => (
         <div
           key={index}
